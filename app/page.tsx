@@ -1,12 +1,10 @@
 import HeroSection from "@/components/sections/hero";
-import Slice from "@/components/sections/slice";
-
+import AboutSection from "@/components/sections/about";
 export default function Page() {
   return (
     <>
       <HeroSection />
-
-      {/* <Slice /> */}
+      <AboutSection />
     </>
   );
 }
