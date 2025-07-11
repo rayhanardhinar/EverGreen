@@ -15,6 +15,7 @@ export default function HeroSection() {
         alt="hero-image"
         className="object-cover"
         fill
+        priority
         sizes="100vw"
       />
       {/* Overlay */}
@@ -34,11 +35,11 @@ export default function HeroSection() {
         </div>
         <div className="flex py-6">
           <div className="text-white w-7/10">
-            <h1 className="text-9xl font-light">
+            <p className="text-8xl font-light">
               Build Your Future, One Property at a Time.
-            </h1>
+            </p>
           </div>
-          <div className="flex flex-col justify-end pb-2 text-white w-3/10 text-lg">
+          <div className="flex flex-col justify-end pb-2 text-white w-3/10 text-lg font-light">
             <p>
               Own Your World. One Property at a Time.Own Your World. One
               Property at a Time.Own Your World. One Property at a Time.Own Your
@@ -52,23 +53,23 @@ export default function HeroSection() {
 
         <Card className="flex flex-col gap-8 px-8">
           <div>
-            <h1 className="font-semibold text-3xl">Find the best place</h1>
+            <p className="font-semibold text-3xl">Find the best place</p>
           </div>
           <div className="flex gap-6">
             <div className="flex flex-col flex-1 gap-2">
-              <h1 className="font-semibold">Looking for</h1>
+              <p className="font-semibold">Looking for</p>
               <Input placeholder="Enter type" />
             </div>
             <div className="flex flex-col flex-1 gap-2">
-              <h1 className="font-semibold">Price</h1>
+              <p className="font-semibold">Price</p>
               <SelectDemo placeholder="Price" />
             </div>
             <div className="flex flex-col flex-1 gap-2">
-              <h1 className="font-semibold">Location</h1>
+              <p className="font-semibold">Location</p>
               <SelectDemo placeholder="Location" />
             </div>
             <div className="flex flex-col flex-1 gap-2">
-              <h1 className="font-semibold">Number of rooms</h1>
+              <p className="font-semibold">Number of rooms</p>
               <SelectDemo placeholder="2 Bed rooms" />
             </div>
           </div>
